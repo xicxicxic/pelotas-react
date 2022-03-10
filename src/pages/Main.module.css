@@ -1,0 +1,114 @@
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  height: 60vh;
+
+  text-align: center;
+  position: relative;
+  
+  overflow: hidden;
+  color: #e0e1dd;
+
+}
+.painel {
+  position: absolute;
+  height: 100%;
+  width: 30%;
+  border-radius: 10px;
+  position: flex;
+  
+}
+#left{
+  left: 0%;
+  background-color: #4f5d75;
+ 
+}
+#mid {
+  left: 35%;
+ 
+  background-color: #bfc0c0;
+ 
+}
+#right {
+  right: 0%;
+  background-color: #ef8354;
+  
+}
+
+/* .painel {
+  position: absolute;
+  height: 50%;
+  width: 33.3333%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+
+}
+.painel:hover {
+  cursor: default;
+  z-index: 10;
+}
+.painel p {
+  display: none;
+}
+.painel:hover p {
+  display: block;
+  cursor: text;
+}
+.painel button {
+  display: none;
+}
+.painel:hover button {
+  display: block;
+}
+#left {
+  background-color: #415a77;
+}
+#left:hover {
+  animation: stretch 1.25s forwards;
+}
+#mid {
+  left: 33.3333%;
+  background-color: #d3c1d2;
+}
+#mid:hover {
+  animation: stretchmid 1.25s forwards;
+}
+#right {
+  left: 66.66666%;
+  background-color: #8dd5c4;
+}
+#right:hover {
+  animation: stretchright 1.25s forwards;
+}
+
+@keyframes stretch {
+  from {
+    width: 33.33333%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes stretchmid {
+  from {
+    left: 33.33333%;
+    width: 33.33333%;
+  }
+  to {
+    width: 100%;
+    left: 0%;
+  }
+}
+
+@keyframes stretchright {
+  from {
+    left: 66.66666%;
+    width: 33.33333%;
+  }
+  to {
+    width: 100%;
+    left: 0%;
+  }
+} */

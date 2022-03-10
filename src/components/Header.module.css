@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  top: 0%;
+  position: fixed;
+
+  z-index: 10;
+
+  width: 100vw;
+  height: 80px;
+  /* background-color: rgb(32, 50, 57); */
+  /* background-color: #79B791; */
+  /* background-color: #476B5C; */
+  /* background-color: #EDF4ED; */
+  /* background-color: #1B263B; */
+  background-color: #2d3142;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.imageFrame {
+  position: relative;
+
+  width: 60px;
+  height: 60px;
+
+  left: 10%;
+  top: 50%;
+
+  transform: translateY(-50%);
+}
+.image{
+  position: absolute;
+
+  max-width: 100%;
+  max-height: 100%;
+  border-radius:5px ;
+}
+
+.navigation {
+  position: absolute;
+
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  font-weight: bolder;
+}
+
+.navigation a {
+  padding: 20px;
+}

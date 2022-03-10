@@ -1,0 +1,47 @@
+.contentor {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "text text text text"
+    "text text text text"
+    "text text text text"
+    "button button button button";
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.text {
+  grid-area: text;
+  font-weight: bolder;
+  font-size: 4vh;
+  text-align: left;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.button {
+  grid-area: button;
+}
+
+.button button {
+  width: 70%;
+  height: 50px;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: #2d3142;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 2.5vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+  background-color: white;
+  color: #2d3142;
+  cursor: pointer;
+}
